@@ -5,9 +5,9 @@ if dolarDun > dolarBugun:
     print("azalış oku")
     print("bitti")
 
-if dolarDun< dolarBugun:
+elif dolarDun< dolarBugun:
     print("artış oku")
 
 
-if dolarDun == dolarBugun:
+else :
     print("Eşittir oku")
